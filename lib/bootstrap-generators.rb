@@ -13,6 +13,7 @@ module Bootstrap
 
         %w(eot svg ttf woff woff2).each do |ext|
           app.config.assets.precompile << "bootstrap/glyphicons-halflings-regular.#{ext}"
+        end
       end
     end
   end
